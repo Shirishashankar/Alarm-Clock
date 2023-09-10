@@ -1,0 +1,150 @@
+/*Global Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.display{
+    display: flex;
+}
+.mb{
+    margin-bottom: 30px;
+}
+/*End Global Styles*/
+
+/* Container styles */
+
+.container{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Clock styles */
+
+.clock{
+    width: 400px;
+    min-height: 400px;
+    max-height: fit-content;
+    padding: 2rem;
+    background-color: rgb(249 249 249);
+    border: solid 2px;
+    border-radius: 25%;
+    border-color:#e647b1 ;
+    box-shadow: 0px 0px 6px 4px #e647b1;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+/* Styling for the current time display */
+
+.current-time{
+    font-size: 2rem;
+    color: black;
+}
+/* Styling for the alarm form */
+
+.alarm-form {
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+/* Styling for select dropdowns */
+
+select{
+    appearance: none;
+    outline: black;
+    background-color: white;
+    padding: 8px;
+    font-weight: bold;
+    border: solid 2px;
+    margin-right: 0.3rem;
+    cursor: pointer;
+    color: #0E141B;
+    border-color: #e647b1;
+    border-radius: 10px;
+}
+
+/* Styling for buttons */
+
+button{
+    outline: none;
+    font-weight: bold;
+    border: solid;
+    border-radius: 10px;
+    border-color: #e647b1;
+    background-color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    
+
+}
+.second-container{
+    width: 100%;
+    max-height: fit-content;
+}
+.alarm-title{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+/* Button hover/focus effect */
+
+button:focus,
+button:hover{
+    background-color: #e647b1;
+}
+
+/* Styling for individual alarms */
+
+.alarm {
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    align-items: center;
+  
+  }
+
+  /* Styling for the delete alarm button */
+
+  .alarm .delete-alarm {
+    border-radius: 2rem;
+    border: solid 2px;
+    border-color: #e647b1;
+    background-color: white;
+    font-weight: bold;
+    color: Black;
+    font-size:xx-medium;
+  }
+
+  /* Styling for the time display in alarms */
+  
+  .time {
+    color: #0E141B;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  /* Styling of devices of screen size less than 768px */
+
+  @media only screen and (min-width: 600px) {
+    /* adding padding to container */
+    .main-container {
+      padding-block: 2rem;
+    }
+    .clock-container{
+        justify-content: center;
+        border-radius: 50px;
+        width: 450px;
+        min-height: auto;
+    }
+  }

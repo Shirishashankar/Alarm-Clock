@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/2fda1e3966.js" crossorigin="anonymous"></script>
+        <title>Alarm Clock</title>
+
+    </head>
+    <body>
+        <div class="container display">
+            <div class="clock display" >
+                <div class="current-time mb" id="current-time">
+                    00 : 00 : 00
+                </div>
+                <form class="alarm-form display mb">
+                    <div>
+                        <select name="hours" id="hours" required>H</select>
+                        <select name="minutes" id="minutes" required>M</select>
+                        <select name="seconds" id="seconds" required>S</select>
+                        <select name="am-pm" id="am-pm" required>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </div>
+                    <button class="submit-button" type="submit" id="submitButton">Set Alarm</button>
+                </form>
+                <div class="second-container">
+                    <div class="alarm-title mb">Alarms</div>
+                    <div class="alarms-container" id="alarms-container"></div>
+                </div>
+            </div>
+        </div>
+        <!--Javascript file-->
+        <script src="script.js"></script>
+    </body>
+</html>
