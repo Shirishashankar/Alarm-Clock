@@ -33,7 +33,7 @@ Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks a
 <br>
   ~ PAGE
 <br>
-<img width="1440" alt="Screenshot 2023-09-10 at 3 35 17 PM" src="https://github.com/Shirishashankar/Alarm-Clock/assets/144225998/a7f132fd-a90b-4a7f-b6a7-2541fec44818">
+<img width="1440" alt="Clock Page" src="https://github.com/Shirishashankar/Alarm-Clock/assets/144225998/207cd52b-e44f-4d77-b378-4f02ccafb894">
 
 
 
